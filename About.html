@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="services.css">
+      <link rel="stylesheet" href="About.css">
+      <link rel="stylesheet" href="contact.css">
+      <!--font awesome cdn-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--Bootstrap cdn-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   </head>
+   <body>
+      <!--top bar starts from here-->
+      <div class="topbar">
+         <p>FShaikh@blendsync.com | +17032293131</p>
+      </div>
+      <!--top bar ends here-->
+      <!--Navbar starts here-->
+      <nav>
+         <div class="left-nav">
+            <div><img src="assets/b_logo-removebg-preview.png" alt="logo" class="logo"></div>
+         </div>
+         <div class="right-nav">
+            <div><a href="Home">Home</a></div>
+            <div><a href="About.html">About Us</a></div>
+            <div><a href="services.html">Services</a></div>
+            <div><a href="Contact.html">Contact Us</a></div>
+         </div>
+         <i class="fa-solid fa-bars" onclick="hamburger()"></i>
+         <div class="hamburger-hide">
+            <i class="fa-solid fa-xmark" onclick="hamburger()" style="cursor:pointer; font-size:1.5rem; margin-bottom:1rem;"></i>
+            <div><a href="Home">Home</a></div>
+            <div><a href="About">About Us</a></div>
+            <div><a href="Services">Services</a></div>
+            <div><a href="Contact">Contact Us</a></div>
+         </div>
+      </nav>
+      <!--nav bar ends-->
+      <!-- Abouts us starts -->
+      <section class="Abouts-us">
+         <div class="Abouts-us-section">
+         <h1>About Blendsync</h1>
+         <p>We empowers businesses with expert ServiceNow development, IT support, and strategic consulting to drive smarter, more connected operations. </p>
+         <div class="Abouts-us-container">
+            <a href="#Our Mission " class="Abouts-us-link"> Our Mission </a>
+            <a href="#Our Vision" class="Abouts-us-link">Our Vision</a>
+            <a href="#Our Core values" class="Abouts-us-link">Our Core values</a>
+         </div>
+      </section>
+      <!-- Abouts us ends -->
+      <section class="mv-core-section">
+         <h1>Our Mission, Vision & Core Values</h1>
+         <div class="mv-core-container">
+            <div class="mv-card" id="Our Mission">
+               <div class="mv-img"><img src="assets/mission.png" alt=""></div>
+               <h2>Our Mission</h2>
+               <p>Deliver cutting-edge IT solutions that enable businesses to excel in the digital era, while staying committed to providing tailored, innovative services designed to meet the unique needs of every client. Our goal is to not only drive growth, enhance efficiency, and ensure long-term success but also to simplify complex technological challenges through secure, scalable, and future-ready solutions. By blending creativity with deep technical expertise, we deliver results that are both practical and transformative, empowering organizations to stay competitive and adaptable in an ever-changing digital landscape.</p>
+            </div>
+            <div class="mv-card" id="Our Vision">
+               <div class="mv-img"><img src="assets/vision.png" alt=""></div>
+               <h2>Our Vision</h2>
+               <p>Become a trusted leader in delivering seamless technology solutions that empower organizations to stay ahead in an ever-evolving digital landscape. We aspire to set new standards of excellence by fostering innovation, driving efficiency, and creating growth opportunities for every client we serve. Through continuous improvement, forward-thinking strategies, and a relentless focus on customer success, our vision is to build a future where technology becomes an enabler of limitless possibilities and sustainable progress.</p>
+            </div>
+            <div class="mv-card" id="Our Core values">
+               <div class="mv-img"><img src="assets/values.png" alt=""></div>
+               <h2> Our Core Values</h2>
+               <p><b>Innovation:</b> Continuously embrace new ideas and technologies to create smarter solutions.<br>
+                  <b>Integrity:</b> Uphold transparency, honesty, and ethical practices in all we do.<br>
+                  <b>Customer Focus:</b> Prioritize client needs and deliver exceptional, tailored services.<br>
+                  <b>Excellence:</b> Strive for quality, efficiency, and superior performance in every project.<br>
+                  <b>Collaboration:</b> Foster teamwork and partnerships that drive shared success.
+               </p>
+            </div>
+         </div>
+      </section>
+      <!--Footer starts -->
+      <footer class="footer">
+         <div class="footer-container">
+            <div class="footer-section about">
+               <h3>About Blendsync</h3>
+               <p>Blendsync delivers innovative IT solutions, consulting, and support to empower your business.</p>
+            </div>
+            <div class="footer-section links">
+               <h3>Quick Links</h3>
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="About.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="Contact.html">Contact</a></li>
+               </ul>
+            </div>
+            <div class="footer-section newsletter">
+               <h3>Subscribe</h3>
+               <p>Get updates on the latest IT solutions and news.</p>
+               <form id="newsletterForm">
+                  <input type="email" placeholder="Your Email" required>
+                  <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+               </form>
+               <p id="subscribeMessage" style="margin-top:10px; font-size:0.9rem;"></p>
+            </div>
+            <div class="footer-section social">
+               <h3>Follow Us</h3>
+               <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <p>&copy; 2025 Blendsync. All Rights Reserved.</p>
+         </div>
+      </footer>
+      <!--  Footer ends -->
+   </body>
+   <script src="script.js"></script>
+   <!--bootstap js-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
